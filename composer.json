@@ -1,0 +1,23 @@
+{
+    "name": "alaa-hany/contabo-api",
+    "description": "Contabo API allows you to manage your resources using PHP.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alaahany\\ContaboApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alaa Hany",
+            "email": "elboray.alaa1@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "ext-json": "*",
+        "ramsey/uuid": "^4.2"
+    }
+}
